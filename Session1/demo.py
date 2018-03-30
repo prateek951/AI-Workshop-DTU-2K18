@@ -1,8 +1,7 @@
-# @desc This is an intro to python and machine learning 
-a = 44
-print(a)
+# @desc Working with Numpy
 
-b = [1,1,2,23,23,2]
-print(b)
-# To print the datatype of a variable
-print(type(b))
+import numpy as np
+
+# Creating the array using numpy
+
+myarray = np.array([12,2,2,2,2,2])
