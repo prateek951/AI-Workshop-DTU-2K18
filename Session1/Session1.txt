@@ -123,6 +123,8 @@ Classification is Supervised machine learning algorithm
 
 # KNN Algorithm for finding the nearest neighbour algorithm
 
+Prediction via KNN by sweetness or sourness(Data is continuous)
+
 
 
 
