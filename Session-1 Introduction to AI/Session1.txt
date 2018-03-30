@@ -83,6 +83,18 @@ Data is discrete Always use the classification technique to analyse the data
 
 Data set is continuous Use Prediction
 
+Supervised Task Driven
+
+Unsupervised Learning (Data Driven)
+No labels associated with data points.These machine learning algos organise the data into a group of clusters
+to describe its structure and make complex data look simple
+
+Supervised learning is known as the prediction learning.
+
+Classification can be single class or multiple class
+
+
+
 
 
 
