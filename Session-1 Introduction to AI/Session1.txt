@@ -2,3 +2,14 @@ This is Session-1
 
 Pandas is the library to use to structurise the data from the 
 unstructured data
+
+Intelligence is composed of learning,reasoning and Intelligence
+
+Applications of Machine Learning 
+
+Virtual Programming Assistants adn Recommendation Systems
+
+Object Recognition and Face detection
+Mining the big data 
+Classification and clustering of data 
+
