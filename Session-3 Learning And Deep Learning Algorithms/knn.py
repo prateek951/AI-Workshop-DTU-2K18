@@ -19,6 +19,10 @@ myKNN = KNeighborsClassifier()
 
 myKNN.fit(fruit_feature,fruit_target)
 
+fruite_feature = fruit_feature.reshape(-1,1)
+
+print(fruit_feature)
+
 # Using the predict method to predict the output
-myKNN.predict([7,3])
-m
+
+print(myKNN.predict([7,3]))
