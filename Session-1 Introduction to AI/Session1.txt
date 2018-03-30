@@ -59,6 +59,21 @@ Minimise the cost function which is target value - original value
 
 MEAN SQUARED ERROR = SQUARE(COST FUNCTION)
 
+Data Split 
+
+Splitting the dataset into the training set and the testing set.
+
+Training the system (80% of the dataset) 
+
+Testing the model to predict its statistical power and how well it understood the  correlations
+
+Model storage and reusing of the model 
+
+ML Applications
+
+Prediction
+Classification
+Speech Recognition 
 
 
 
