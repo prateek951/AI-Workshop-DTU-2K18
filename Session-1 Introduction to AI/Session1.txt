@@ -1,4 +1,4 @@
-This is Session-1
+Session-1
 
 Pandas is the library to use to structurise the data from the 
 unstructured data
@@ -10,6 +10,28 @@ Applications of Machine Learning
 Virtual Programming Assistants adn Recommendation Systems
 
 Object Recognition and Face detection
+
 Mining the big data 
+
+(Analytics and stock with this pattern tend to go up)
+
 Classification and clustering of data 
+
+(fraud detection and sequence mining)
+
+Data understanding and data mining 
+
+Experience comes from the past experience.
+
+Contributes to AI
+Computer Science
+Psychology
+Sociology
+Neuron Science
+
+Start learning Machine Learning 
+Mathematics Statistics Domain Knowledge Computer Science and data science.4
+
+Searching, Reducing and filtering of important data from the unstructured data is known as data mining.
+
 
