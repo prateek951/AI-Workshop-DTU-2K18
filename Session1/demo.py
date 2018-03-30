@@ -56,5 +56,8 @@ print(newarray[-2])
 print(newarray[:])
 # Extracting the particular slice of the array
 print(newarray[1:3])
+print(newarray[:-2])
+
+#End of the splitting portion 
 
 
