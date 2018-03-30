@@ -104,7 +104,17 @@ Numpy is a scientific Numerical computation library for working with the matrice
 numpy scipy python matplotlib seaborn libraries that we use in machine learning
 
 
+Intro to python programming language
 
+List [1,2,32,3,4,54,"rfasfsd"] are mutable we can mutate the elements at the runtime
+
+Tuple (1,2,33,3,3,4,54,2,23) 
+
+Dictionary is just like the object literal in javascript {
+    key1 : value1,
+    key2 : value2,
+    key3 : value3
+}
 
 
 
