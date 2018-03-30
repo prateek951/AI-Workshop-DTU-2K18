@@ -75,6 +75,13 @@ Prediction
 Classification
 Speech Recognition 
 
+Supervised learning is for labelled data 
+
+Prediction and Classification(Supervised learning algorithm)
+
+Data is discrete Always use the classification technique to analyse the data
+
+Data set is continuous Use Prediction
 
 
 
