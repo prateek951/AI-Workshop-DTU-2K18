@@ -12,10 +12,25 @@ print(myarray)
 print(type(myarray))
 
 # To print the order of the matrix
-print(myarray.ndim);
+print(myarray.ndim)
 
 # To print the shape of the array
 print(myarray.shape)
 
 # To print a specific element of the array
 print(myarray[0])
+
+# To print the last element of the array
+# 2 ways of printing the last element of the array 
+
+print(myarray[len(myarray) - 1]);
+print(myarray[-1])
+
+
+# Specific methods on the array that we can use
+
+# type(myarray) returns the type of the array
+# myarray.ndim returns the dimensions of the array
+# myarray.itemsize returns the size of the datatype that we have used for the array
+# myarray.size returns the size of the array
+# myarray.dtype returns the datatype of the array
