@@ -116,8 +116,12 @@ Dictionary is just like the object literal in javascript {
     key3 : value3
 }
 
+Classification is Supervised machine learning algorithm
 
 
+# We will find the minimum distance using the euclidean distance formula
+
+# KNN Algorithm for finding the nearest neighbour algorithm
 
 
 

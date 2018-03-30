@@ -60,4 +60,18 @@ print(newarray[:-2])
 
 #End of the splitting portion 
 
+# To reverse the list of all the elements
+array_new = [13,123,132,121,2]
+print(array_new[::-1])
+
+# Numpy functions to create arrays
+# To create the array of zeroes using numpy
+# np.zeroes()
+
+# To create an array of ones using numpy 
+# np.ones()
+
+# To create the identity matrix using numpy
+# np.eye(4) to create a 4 dimensional identity matrix using numpy
+
 
