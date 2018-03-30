@@ -44,3 +44,9 @@ print(myarray_2d.shape)
 # Printing the dimensions of the array
 print(myarray_2d.ndim)
 print(len(myarray_2d))
+
+# Negative index in numpy
+newarray = np.array([1,23132,12,122,1])
+print(newarray[-1])
+print(newarray[-2])
+
