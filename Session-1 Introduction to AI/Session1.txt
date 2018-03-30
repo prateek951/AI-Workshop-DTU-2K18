@@ -42,3 +42,13 @@ Neural Networks and the deep learning
 
 Solving of an uncertain problem
 
+When to use the SUPERVISED ML and when to use UNSUPERVISED ML 
+
+1. Observe
+2.Interpret(Sense and understand)
+3. Evaluate Generating Hypothesis
+4. Modelling 
+
+
+
+
