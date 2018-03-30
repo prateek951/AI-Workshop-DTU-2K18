@@ -34,4 +34,11 @@ Mathematics Statistics Domain Knowledge Computer Science and data science.4
 
 Searching, Reducing and filtering of important data from the unstructured data is known as data mining.
 
+AI is the superset of all these fields 
+
+Machine Learning has two concepts in it 
+
+Neural Networks and the deep learning 
+
+Solving of an uncertain problem
 
