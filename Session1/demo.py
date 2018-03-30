@@ -50,3 +50,11 @@ newarray = np.array([1,23132,12,122,1])
 print(newarray[-1])
 print(newarray[-2])
 
+# Slicing in the array
+# Using the colon
+# myarray[:] : means all the elements 
+print(newarray[:])
+# Extracting the particular slice of the array
+print(newarray[1:3])
+
+
