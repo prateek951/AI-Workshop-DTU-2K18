@@ -93,6 +93,18 @@ Supervised learning is known as the prediction learning.
 
 Classification can be single class or multiple class
 
+Packages and Classes
+
+IDE - Spyder and Anaconda Notebook Jupyter
+
+To run a new instance of the jupyter notebook, use ipython notebook command or the jupyter notebook command
+
+Numpy is a scientific Numerical computation library for working with the matrices
+
+numpy scipy python matplotlib seaborn libraries that we use in machine learning
+
+
+
 
 
 
