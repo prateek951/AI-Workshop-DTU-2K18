@@ -1,1 +1,4 @@
 This is Session-1
+
+Pandas is the library to use to structurise the data from the 
+unstructured data
