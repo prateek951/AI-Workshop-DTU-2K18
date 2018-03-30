@@ -34,3 +34,13 @@ print(myarray[-1])
 # myarray.itemsize returns the size of the datatype that we have used for the array
 # myarray.size returns the size of the array
 # myarray.dtype returns the datatype of the array
+
+# For defining the 2 dimensional arraty using numpy
+
+myarray_2d = np.array([[13132,32,323,23,23],[32,32,32,323,2]]);
+print(myarray_2d)
+print(myarray_2d.shape)
+
+# Printing the dimensions of the array
+print(myarray_2d.ndim)
+print(len(myarray_2d))
