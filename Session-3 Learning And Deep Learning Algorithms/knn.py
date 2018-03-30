@@ -21,3 +21,4 @@ myKNN.fit(fruit_feature,fruit_target)
 
 # Using the predict method to predict the output
 myKNN.predict([7,3])
+m
