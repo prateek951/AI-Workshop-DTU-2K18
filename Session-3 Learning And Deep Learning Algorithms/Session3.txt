@@ -1,1 +1,3 @@
 This is the Session3
+
+For training we use the fit method and then predict the output
