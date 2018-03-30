@@ -49,6 +49,19 @@ When to use the SUPERVISED ML and when to use UNSUPERVISED ML
 3. Evaluate Generating Hypothesis
 4. Modelling 
 
+Data Collection
+
+Data(features) 
+
+COST FUNCTION  is the error between the target value and the original value. 
+
+Minimise the cost function which is target value - original value 
+
+MEAN SQUARED ERROR = SQUARE(COST FUNCTION)
+
+
+
+
 
 
 
