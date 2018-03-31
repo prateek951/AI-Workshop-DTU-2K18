@@ -1,20 +1,27 @@
+import numpy as np
+from sklearn.neighbors import KNeighborsClassifier
 from sklearn import datasets
 
-#Load the dataset
+# Importing the datasets 
 
 dataset = datasets.load_iris()
 
-# To check the shape for the dataset
+# Matrix of features
+X = dataset.data
+Y = dataset.target
 
-print(dataset.data.shape)
+# Training set for the features matrix
+X_train  = X[0:-10]
+print(X_train.shape)
 
-# To check the keys for a dictionary
-print(dataset.keys())
-print(dataset.target)
-print(dataset.target_names)
-print(dataset.target_names[0])
-print(dataset.target_names[1])
+# Training set for the target dependent vector
+Y_train = Y[0:-10]
+print(Y_train.shape)
 
-# The features of the iris dataset
-print(dataset.feature_names)
+# Testing set for the features matrix
+X_test = X[-10:]
+print(X_test.shape)
 
+# Testing set for the target dependent vector
+Y_test = Y[-10:]
+print(Y_test)
