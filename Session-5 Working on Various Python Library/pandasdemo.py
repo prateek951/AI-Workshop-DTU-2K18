@@ -16,4 +16,8 @@ df = pd.read_excel("Here goes the path for the file that is to be read")
 # To print the dataframe shape
 print(df.shape)
 # Print the top 5 elements of the dataset
-print(df.head)() 
+print(df.head()) 
+print(df["column-name"].mean())
+print(df["column-name"].sum())
+print(df["column-name"].min())
+print(df["column-name"].max())
