@@ -1,3 +1,5 @@
 This is the Session3
 
 For training we use the fit method and then predict the output
+
+Pandas library is used to perform data extraction and data slicing
