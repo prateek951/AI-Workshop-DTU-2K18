@@ -9,3 +9,6 @@ e = pd.DataFrame({"a" : [1,2,2],"b" : [7,8,9]})
 print(c)
 print(d)
 print(e["a"][0:3])
+
+# To load the csv file using the pandas
+df = pd.read_excel("Here goes the path for the file that is to be read")
