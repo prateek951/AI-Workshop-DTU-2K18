@@ -1,0 +1,10 @@
+Linear Regression
+
+Labelled data
+
+Minimise the Mean Squared Error (MSE)
+
+Difference between the target and the truth value is to be minimised
+
+linear wrt weights
+

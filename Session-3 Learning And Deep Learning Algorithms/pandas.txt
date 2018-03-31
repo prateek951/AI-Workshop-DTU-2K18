@@ -2,3 +2,11 @@ What is Pandas ??
 
 Pandas is used for extracting the data from csv or excel files so we can perform analysis on the data
 
+Data Analysis for the data mining operation
+
+4 datatypes in Pandas
+
+Series(same as one dimensional array)
+DataFrame(in 99 percent cases It is same as a two dimensional array)
+Panel
+Panel4D
