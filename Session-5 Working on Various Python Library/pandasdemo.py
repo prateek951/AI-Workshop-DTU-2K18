@@ -144,3 +144,21 @@ print(iris.head())
 # Drops extra columng now created after reset_index
 iris.reset_index(drop=True,inplace=True)
 print(iris.head())
+
+# Package for plotting the curves (matplotlib)
+
+import matplotlib.pyplot as plt
+# we need only pyplot of matplotlib package
+from matplotlib import style 
+
+x = [1,2,3]
+y = [3,6,12]
+# To plot means to join lines between given points
+plt.plot(x,y)
+plt.show()
+# Gives the title for the plot
+plt.title("Demo for the matplotlib library")
+plt.xlabel("X") #gives name to the x axis
+plt.ylabel("Y") #gives name to the y axis
+plt.scatter(x,y) #scatter plot(only plot the points but not join them)
+plt.show()
