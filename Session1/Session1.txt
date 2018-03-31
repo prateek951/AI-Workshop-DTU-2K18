@@ -125,6 +125,9 @@ Classification is Supervised machine learning algorithm
 
 Prediction via KNN by sweetness or sourness(Data is continuous)
 
+fit(X,y) Fit the model using X as the training data and y as the target variable
+
+predict(X,y) Test and make a prediction based on the values from the training set
 
 
 
