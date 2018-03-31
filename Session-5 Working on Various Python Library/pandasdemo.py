@@ -114,3 +114,23 @@ print(pd.isnull(iris))
 
 iris.sw.fillna(1,inplace=True)
 #Fill null entries with 1 inplace=True means changes are made on the same table
+iris.iloc[1:3,1:2] = np.nan
+iris.sw.fillna(iris.sw.mean(),inplace=True)
+#Fill null entries with sw's column mean value
+print(iris.head())
+
+Y = iris['flower_class']
+print(Y)
+
+
+# Deleting a particular column from the dataset
+del iris['flower_class']
+# after first run, flower class already deleted
+print(iris.head())
+
+iris.iloc[1:3,:] = np.nan;
+# remove rows with column values having  nan
+iris.dropna(inplace=True)
+
+# Print the first five rows of the dataset
+print(iris.head())
