@@ -26,4 +26,16 @@ print(X_test.shape)
 Y_test = Y[-10:]
 print(Y_test)
 
+# Perform the modelling now
+from sklearn.neighbors import KNeighborsClassifier
+
+# Create an instance of the KNeighborsClassifier
+knn = KNeighborsClassifier(n_neighbors=5)
+
+# Fit the KNN classifier to the training set
+knn.fit(X_train,Y_train)
+
+# Predict class for the new data point
+print(knn.predict([[0.0,2.2,1.1,1.1]]))
+
 
