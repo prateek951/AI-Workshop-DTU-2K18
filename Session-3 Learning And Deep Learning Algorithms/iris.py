@@ -25,12 +25,11 @@ print(X_test.shape)
 # Testing set for the target dependent vector
 Y_test = Y[-10:]
 print(Y_test)
-
 # Perform the modelling now
 from sklearn.neighbors import KNeighborsClassifier
 
 # Create an instance of the KNeighborsClassifier
-knn = KNeighborsClassifier(n_neighbors=5)
+knn = KNeighborsClassifier(n_neighbors=55)
 
 # Fit the KNN classifier to the training set
 knn.fit(X_train,Y_train)
