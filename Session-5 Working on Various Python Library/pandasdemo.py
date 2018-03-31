@@ -86,3 +86,31 @@ print(pd.isnull(iris))
 
 #Columnwise sum of the null values
 print(pd.isnull(iris).sum())
+
+# iris.columnName will give that column
+print(iris.sl)
+
+# Display rows 1 and 2 & columns 1 and 2
+print(iris.iloc[1:3,1:3])
+# Display the 0th row
+print(iris.iloc[0:1,:])
+
+# Find the mean of the column sl
+print(iris.sl.mean())
+# Find the sim of the columns sl
+print(iris.sl.sum())
+
+
+#NOTE - Pandas make internally the use of numpy
+
+#Putting the null/nan values between the specified indices
+iris.iloc[1:3,1:2] = np.nan
+
+# Print the top 5 rows
+print(iris.head())
+
+#Check for isNull
+print(pd.isnull(iris))
+
+iris.sw.fillna(1,inplace=True)
+#Fill null entries with 1 inplace=True means changes are made on the same table
