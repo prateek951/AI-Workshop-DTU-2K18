@@ -1,5 +1,5 @@
-
 import pandas as pd 
+
 # Creating a series of elements
 c = pd.Series([1,2,3,4,5])
 # Creating a dataframe of elements
@@ -12,3 +12,8 @@ print(e["a"][0:3])
 
 # To load the csv file using the pandas
 df = pd.read_excel("Here goes the path for the file that is to be read")
+
+# To print the dataframe shape
+print(df.shape)
+# Print the top 5 elements of the dataset
+print(df.head)() 
