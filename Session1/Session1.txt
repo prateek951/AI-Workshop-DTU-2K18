@@ -131,7 +131,6 @@ predict(X,y) Test and make a prediction based on the values from the training se
 
 Working on the iris dataset already provided by the sklearn 
 
-
 Sepal has two features and the petal has two features
 (4) Sepal length Sepal width Petal length and the petal width
 
