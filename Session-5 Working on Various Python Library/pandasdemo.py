@@ -134,3 +134,13 @@ iris.dropna(inplace=True)
 
 # Print the first five rows of the dataset
 print(iris.head())
+
+# Resetting the index
+iris.reset_index()
+a = iris.reset_index()
+print(a)
+print(iris.head())
+
+# Drops extra columng now created after reset_index
+iris.reset_index(drop=True,inplace=True)
+print(iris.head())
