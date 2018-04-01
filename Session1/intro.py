@@ -87,3 +87,41 @@ for ix in r:
         print('Buzz')
     else:
         print(ix)
+
+def avg(*args,**kwargs):
+    print(args)
+    print(kwargs)
+
+print(avg(12.01,12,a=10,b=20,pq=-3))
+
+from math import sqrt as sq 
+
+print(sq(2))
+
+# Working with classes in python
+
+class MyClass:
+    """docstring for MyClass."""
+    x=100
+    def __init__(self,x=0.1,y=10):
+        
+        self.x = x 
+        self.y = y 
+
+    def create_new_z(self,z=11):
+        self.z = z         
+    def self_square(self):
+        self.x = self.x**2 
+        self.y = self.y**2
+        self.z = self.z**2
+    def multiply_w_sq(self,p):
+        self.self_square()
+        return p*(self.x) + p*(self.y) + p*(self.z)
+
+a= MyClass()
+print(a)
+print(a.x)
+print(a.y)
+a.create_new_z()
+print(a.z)
+print(a.multiply_w_sq(-10))
