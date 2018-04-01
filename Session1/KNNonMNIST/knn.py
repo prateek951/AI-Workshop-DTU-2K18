@@ -122,7 +122,7 @@ def get_accuracy(kx):
 
     # prints preds.shape
     return 100* float((Y_test == preds).sum())/preds.shape[0]
-print(get_accuracy(15))
+print(get_accuracy(kx=15))
 
 
 
