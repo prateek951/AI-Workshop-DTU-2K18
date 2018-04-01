@@ -47,7 +47,9 @@ plt.show()
 from sklearn.neighbors import KNeighborsClassifier
 
 classifier2 = KNeighborsClassifier(n_neighbors=3)
+
 classifier2.fit(x,y)
+
 print(classifier2.predict([7,6]))
 
 
