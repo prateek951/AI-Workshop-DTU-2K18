@@ -70,6 +70,28 @@ plt.figure(figsize=(10,10))
 for index,column in enumerate(iris_data.columns):
     if column=='class':
         continue 
-    plt.subplot(2,2,row+1)
+    plt.subplot(2,2,index+1)
     print(sb.violinplot(x='class',y=column,data=iris_data))
+
+
+# Begin with exploratory analysis
+
+all_features = iris_data[['sepal_length_cm','sepal_width_cm','petal_length_cm','petal_width_cm']].values
+
+all_classes = iris_data['class'].values
+
+print(all_classes[:5])
+
+# Now our dataset is ready for the split
+from sklearn.cross_validation import train_test_split
+(training_inputs,testing_inputs,training_classes,testing_classes) = train_test_split(all_inputs,all_classes,train_size=0.75,random_state=1)
+
+
+
+
+
+
+
+
+
 
