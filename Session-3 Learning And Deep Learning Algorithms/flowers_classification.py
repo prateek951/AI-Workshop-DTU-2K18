@@ -26,4 +26,8 @@ iris_data.loc[iris_data['class']== 'Iris-setossa','class'] = 'Iris-setosa'
 
 print(iris_data['class'].unique())
 
+# Researchers said that for iris setosa it is impossible to have a sepal width below 2.5 cm
+# Remove such entries
 
+iris_data = iris_data.loc[(iris_data['class'] != 'Iris-sertosa') | (iris_data['sepal_width_cm'] >= 2.5)]
+print(iris_data.loc[iris_data['class']== 'Iris-sertosa','sepal_width_cm'].hist())
