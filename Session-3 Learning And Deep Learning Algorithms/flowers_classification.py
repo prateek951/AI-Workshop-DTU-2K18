@@ -105,7 +105,7 @@ for i in range(1000):
 
     # DECISION TREE CLASSIFIER ALGORITHM
        # Create the decision tree classifier
-        decision_tree_classifier = DecisionTreeClassifier()
+     decision_tree_classifier = DecisionTreeClassifier()
        # Train the classifier on the training set
        decision_tree_classifier.fit(training_inputs,training_classes)
        # Validate the classifier on the test set based on the accuracy of classification
