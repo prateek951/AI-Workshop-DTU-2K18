@@ -51,3 +51,11 @@ average_petal_width = iris_data[iris_data['class']=="Iris-setosa",'petal_width_c
 iris_data.loc[(iris_data['petal_width_cm'].isnull()),'petal_width_cm'] = average_petal_width
 
 print(iris_data.loc[(iris_data['class'=='Iris-setosa']) & (iris_data['petal_width_cm'] == average_petal_width)])
+
+# Check for whether you still have null values in the mined analysed scrapped dataset
+print(iris_data.loc[(iris_data['sepal_length_cm'].isnull()) | (iris_data['sepal_width_cm'].isnull()) | (iris_data['petal_length_cm'].isnull()) | (iris_data['petal_width_cm'].isnull())])
+
+# Note: If you don't feel comfortable imputing your data, you can drop all rows with missing data with the dropna() call:
+
+# iris_data.dropna(inplace=True)
+
