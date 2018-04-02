@@ -27,3 +27,5 @@ print(new_y)
 # The property price for a random area
 # where the square feet is 550 is 36 crores around
 # using linear regression
+
+# Clearly SLR sucks for such datasets
