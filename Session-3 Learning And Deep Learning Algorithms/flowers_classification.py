@@ -19,9 +19,3 @@ import seaborn as sb
 print(sb.pairplot(iris_data.dropna(),hue="class"))
 
 
-# Now as can be seen dataset had some errors where in Iris-versicolor was written as versicolor
-# In other case there was a typo mistake in interpreting setosa as setossa
-iris_data.loc[iris_data['class']== 'versicolor','class']="Iris-versicolor"
-iris_data.loc[iris_data['class']== 'Iris-setossa','class'] = 'Iris-setosa'
-
-print(iris_data['class'].unique())
