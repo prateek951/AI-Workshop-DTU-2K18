@@ -35,3 +35,19 @@ print(iris_data.loc[iris_data['class']== 'Iris-sertosa','sepal_width_cm'].hist()
 # If some entries were in metres convert those entries into centimetres
 iris_data.loc[(iris_data['class'] == 'Iris-versicolor') * (iris_data['sepal_length_cm'] < 1.0),'sepal_length_cm']*= 100.0 
 print(iris_data[iris_data['class']== 'Iris-versicolor','sepal_length_cm'].hist())
+
+
+# Take a look at the rows with missing data
+print(iris_data.loc[(iris_data['sepal_length_cm'].isnull()) | (iris_data['sepal_width_cm'].isnull()) | (iris_data.loc['petal_length_cm'].isnull()) | iris_data.loc[iris_data['petal_length_cm'].isnull()]])
+
+
+# To handle missing data we can use the mean imputation process
+
+print(iris_data[iris_data['class']=='Iris-setosa','petal_width_cm'].hist())
+
+# Most of the petal widths for iris-setosa fall within the range of .2 to .3
+# let us fill these entries with average measured total petal width
+average_petal_width = iris_data[iris_data['class']=="Iris-setosa",'petal_width_cm'].mean()
+iris_data.loc[(iris_data['petal_width_cm'].isnull()),'petal_width_cm'] = average_petal_width
+
+print(iris_data.loc[(iris_data['class'=='Iris-setosa']) & (iris_data['petal_width_cm'] == average_petal_width)])
