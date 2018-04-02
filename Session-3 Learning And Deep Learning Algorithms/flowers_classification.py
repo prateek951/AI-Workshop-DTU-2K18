@@ -59,3 +59,17 @@ print(iris_data.loc[(iris_data['sepal_length_cm'].isnull()) | (iris_data['sepal_
 
 # iris_data.dropna(inplace=True)
 
+print(sb.pairplot(iris_data,hue='class'))
+
+print(sb.pairplot(iris_data))
+
+# Data here is normally distributed for most of the part
+
+plt.figure(figsize=(10,10))
+
+for index,column in enumerate(iris_data.columns):
+    if column=='class':
+        continue 
+    plt.subplot(2,2,row+1)
+    print(sb.violinplot(x='class',y=column,data=iris_data))
+
