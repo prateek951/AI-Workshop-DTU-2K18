@@ -31,3 +31,7 @@ print(iris_data['class'].unique())
 
 iris_data = iris_data.loc[(iris_data['class'] != 'Iris-sertosa') | (iris_data['sepal_width_cm'] >= 2.5)]
 print(iris_data.loc[iris_data['class']== 'Iris-sertosa','sepal_width_cm'].hist())
+
+# If some entries were in metres convert those entries into centimetres
+iris_data.loc[(iris_data['class'] == 'Iris-versicolor') * (iris_data['sepal_length_cm'] < 1.0),'sepal_length_cm']*= 100.0 
+print(iris_data[iris_data['class']== 'Iris-versicolor','sepal_length_cm'].hist())
