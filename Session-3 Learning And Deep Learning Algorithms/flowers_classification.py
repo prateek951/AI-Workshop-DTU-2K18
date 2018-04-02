@@ -86,6 +86,18 @@ print(all_classes[:5])
 from sklearn.cross_validation import train_test_split
 (training_inputs,testing_inputs,training_classes,testing_classes) = train_test_split(all_inputs,all_classes,train_size=0.75,random_state=1)
 
+# Using the scale invariant decision tree classifier for the given dataset
+from sklearn.tree import DecisionTreeClassifier
+
+# Create the classifier
+dt_classifier = DecisionTreeClassifier()
+
+# Train the classifier on the training set
+dt_classifier.fit(training_inputs,training_classes)
+
+# Validate the classifier on the testing set based on the accuracy of classification
+print(dt_classifier.predict(testing_inputs,testing_classes))
+
 
 
 
